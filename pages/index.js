@@ -16,7 +16,7 @@ export default function Home({ posts }) {
                 <div className="py-4  px-4 bg bg-base-200 rounded-[32px] rounded">
                 <div className=" bg-base-300 max-w-2xl flex flex-col  justify-center items-center bg-opacity-80 bg-clip-padding   rounded-[16px] adwfasd">
                     {/*<h2 className="pt-10 text-2xl font-extrabold">Advice <span className="text-accent">#{posts.slip.id}</span></h2>*/}
-                    <h2 className="p-16 text-3xl  font-bold">"{posts}"</h2>
+                    <h2 className="p-16 text-3xl  font-bold">&quot;{posts} &quot;</h2>
                 </div>
                 </div>
             </div>
