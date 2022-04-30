@@ -23,7 +23,7 @@ export default function Home({ posts }) {
     </div>
   )
 }
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const posts = await ((await fetch('https://8768zwfurd.execute-api.us-east-1.amazonaws.com/v1/compliments')).json())
 
 
